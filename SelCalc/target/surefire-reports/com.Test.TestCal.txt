@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.Test.TestCal
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.544 sec <<< FAILURE!
+Add(com.Test.TestCal)  Time elapsed: 4.589 sec  <<< FAILURE!
+java.lang.AssertionError: expected [hi] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:442)
+	at com.Test.TestCal.Add(TestCal.java:33)
+
